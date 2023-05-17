@@ -1,0 +1,71 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 35px;
+}
+
+label{
+    font-size: 25px;
+}
+
+
+#btn{
+    background-image: url("sun.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 95%;
+    position: absolute; top: 10px;
+    border-style: solid;
+    border-width: 0px;
+    background-color: none;
+}
+
+@keyframes gettingDark{
+    0%{background-color: rgb(242.25, 242.25, 242.25); color: rgb(0.0, 0.0, 0.0);}
+    5%{background-color: rgb(242.25, 242.25, 242.25); color: rgb(0.0, 0.0, 0.0);}
+    10%{background-color: rgb(229.5, 229.5, 229.5); color: rgb(12.75, 12.75, 12.75);}
+    15%{background-color: rgb(216.75, 216.75, 216.75); color: rgb(25.5, 25.5, 25.5);}
+    20%{background-color: rgb(204.0, 204.0, 204.0); color: rgb(38.25, 38.25, 38.25);}
+    25%{background-color: rgb(191.25, 191.25, 191.25); color: rgb(51.0, 51.0, 51.0);}
+    30%{background-color: rgb(178.5, 178.5, 178.5); color: rgb(63.75, 63.75, 63.75);}
+    35%{background-color: rgb(165.75, 165.75, 165.75); color: rgb(76.5, 76.5, 76.5);}
+    40%{background-color: rgb(153.0, 153.0, 153.0); color: rgb(89.25, 89.25, 89.25);}
+    45%{background-color: rgb(140.25, 140.25, 140.25); color: rgb(102.0, 102.0, 102.0);}
+    50%{background-color: rgb(127.5, 127.5, 127.5); color: rgb(114.75, 114.75, 114.75)}
+    55%{background-color: rgb(114.75, 114.75, 114.75); color: rgb(127.5, 127.5, 127.5);}
+    60%{background-color: rgb(102.0, 102.0, 102.0); color: rgb(140.25, 140.25, 140.25)}
+    65%{background-color: rgb(89.25, 89.25, 89.25); color: rgb(153.0, 153.0, 153.0);}
+    70%{background-color: rgb(76.5, 76.5, 76.5); color: rgb(165.75, 165.75, 165.75)}
+    75%{background-color: rgb(63.75, 63.75, 63.75); color: rgb(178.5, 178.5, 178.5);}
+    80%{background-color: rgb(51.0, 51.0, 51.0); color: rgb(191.25, 191.25, 191.25)}
+    85%{background-color: rgb(38.25, 38.25, 38.25); color: rgb(204.0, 204.0, 204.0);}
+    90%{background-color: rgb(25.5, 25.5, 25.5); color: rgb(216.75, 216.75, 216.75)}
+    95%{background-color: rgb(12.75, 12.75, 12.75); color: rgb(229.5, 229.5, 229.5);}
+    100%{background-color:rgb(0.0, 0.0, 0.0) ; color: rgb(242.25, 242.25, 242.25);}
+}
+
+@keyframes gettingLight{
+    0%{background-color: rgb(0.0, 0.0, 0.0); color: rgb(242.25, 242.25, 242.25);}
+    5%{background-color: rgb(0.0, 0.0, 0.0); color: rgb(242.25, 242.25, 242.25);}
+    10%{background-color: rgb(12.75, 12.75, 12.75); color: rgb(229.5, 229.5, 229.5);}
+    15%{background-color: rgb(25.5, 25.5, 25.5); color: rgb(216.75, 216.75, 216.75);}
+    20%{background-color: rgb(38.25, 38.25, 38.25); color: rgb(204.0, 204.0, 204.0);}
+    25%{background-color: rgb(51.0, 51.0, 51.0); color: rgb(191.25, 191.25, 191.25);}
+    30%{background-color: rgb(63.75, 63.75, 63.75); color: rgb(178.5, 178.5, 178.5);}
+    35%{background-color: rgb(76.5, 76.5, 76.5); color: rgb(165.75, 165.75, 165.75);}
+    40%{background-color: rgb(89.25, 89.25, 89.25); color: rgb(153.0, 153.0, 153.0);}
+    45%{background-color: rgb(102.0, 102.0, 102.0); color: rgb(140.25, 140.25, 140.25);}
+    50%{background-color: rgb(114.75, 114.75, 114.75); color: rgb(127.5, 127.5, 127.5);}
+    55%{background-color: rgb(127.5, 127.5, 127.5); color: rgb(114.75, 114.75, 114.75);}
+    60%{background-color: rgb(140.25, 140.25, 140.25); color: rgb(102.0, 102.0, 102.0);}
+    65%{background-color: rgb(153.0, 153.0, 153.0); color: rgb(89.25, 89.25, 89.25);}
+    70%{background-color: rgb(165.75, 165.75, 165.75); color: rgb(76.5, 76.5, 76.5);}
+    75%{background-color: rgb(178.5, 178.5, 178.5); color: rgb(63.75, 63.75, 63.75);}
+    80%{background-color: rgb(191.25, 191.25, 191.25); color: rgb(51.0, 51.0, 51.0);}
+    85%{background-color: rgb(204.0, 204.0, 204.0); color: rgb(38.25, 38.25, 38.25);}
+    90%{background-color: rgb(216.75, 216.75, 216.75); color: rgb(25.5, 25.5, 25.5);}
+    95%{background-color: rgb(229.5, 229.5, 229.5); color: rgb(12.75, 12.75, 12.75);}
+    100%{background-color: rgb(242.25, 242.25, 242.25); color: rgb(0.0, 0.0, 0.0);}
+}
